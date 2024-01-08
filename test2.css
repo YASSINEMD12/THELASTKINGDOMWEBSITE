@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #542502; /* Dark brown background color */
+    color: #e2dfdd; /* Light beige text color */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+
+  
+  .new-button:hover {
+    background-color: #2980b9; /* Darker blue color on hover */
+  }
+  header {
+    background-color: #1a1a1a; /* Dark gray background color */
+    color: #c5c5c5; /* Light gray text color */
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #8b735b; /* Brown link color */
+    font-weight: bold;
+  }
+  
+  section {
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  section h2 {
+    color: #8b735b; /* Brown section title color */
+  }
+  
+  section#characters h2 {
+    color: #f0c014df; /* Gold section title color */
+  }
+  
+  section#characters .character p strong {
+    color: #ffd700 !important; /* Character names color */
+  }
+  
+  section#overview h2,
+  section#about h2 {
+    color: #f0c014df; /* Gold section title color */
+  }
+  
+  img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .character {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #1a1a1a; /* Dark gray footer background color */
+    color: #0cfed6; /* Cyan footer text color */
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
